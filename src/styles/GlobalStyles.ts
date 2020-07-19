@@ -22,9 +22,8 @@ export default createGlobalStyle`
     background: none;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
-
   html {
-    background: var(--primary)ground;
+    background: var(--primary);
   }
 
   :root {
