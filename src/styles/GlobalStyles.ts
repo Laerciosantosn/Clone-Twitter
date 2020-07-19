@@ -17,6 +17,14 @@ export default createGlobalStyle`
     height: 100%;
   }
 
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+  }
+
   *, button, input {
     border: 0;
     background: none;
