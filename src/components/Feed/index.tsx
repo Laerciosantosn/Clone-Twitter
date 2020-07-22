@@ -10,13 +10,13 @@ const Feed: React.FC = () => {
       <Tab>Tweets</Tab>
 
       <Tweets>
-        {/* <Tweet />
         <Tweet />
         <Tweet />
         <Tweet />
         <Tweet />
         <Tweet />
-        <Tweet /> */}
+        <Tweet />
+        <Tweet />
       </Tweets>
     </Container>
   );
