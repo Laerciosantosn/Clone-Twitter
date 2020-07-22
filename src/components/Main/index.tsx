@@ -14,7 +14,7 @@ import {
   EmailIcon,
 } from './styles';
 
-function Main() {
+const Main: React.FC = () => {
   return (
     <Container>
       <Header>
@@ -38,6 +38,6 @@ function Main() {
       </BottomMenu>
     </Container>
   );
-}
+};
 
 export default Main;

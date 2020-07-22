@@ -4,12 +4,13 @@ import {
   Banner,
   Avatar,
   ProfileData,
+  EditButton,
   LocationIcon,
   CakeIcon,
   Followage,
 } from './styles';
 
-function ProfilePage() {
+const ProfilePage: React.FC = () => {
   return (
     <Container>
       <Banner>
@@ -17,7 +18,7 @@ function ProfilePage() {
       </Banner>
 
       <ProfileData>
-        {/* <EditButton outlined>Editar Perfil</EditButton> */}
+        <EditButton outlined>Editar Perfil</EditButton>
 
         <h1>Laercio Santos</h1>
         <h2>@Laerciosantos</h2>
@@ -52,6 +53,6 @@ function ProfilePage() {
       </ProfileData>
     </Container>
   );
-}
+};
 
 export default ProfilePage;
