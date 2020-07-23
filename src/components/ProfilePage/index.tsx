@@ -17,7 +17,12 @@ const ProfilePage: React.FC = () => {
   return (
     <Container>
       <Banner>
-        <Avatar />
+        <Avatar>
+          <img
+            src="https://api.adorable.io/avatars/200/abott@adorable.png"
+            alt="Adorable Avatars"
+          />
+        </Avatar>
       </Banner>
 
       <ProfileData>

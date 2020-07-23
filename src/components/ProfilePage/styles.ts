@@ -29,21 +29,26 @@ export const Banner = styled.div`
 `;
 
 export const Avatar = styled.div`
-  width: min(65px, min(135px, 22vw));
-  height: min(65px, min(135px, 22vw));
+  width: max(45px, min(100px, 22vw));
+  height: max(45px, min(100px, 22vw));
 
   border: 3.75px solid var(--primary);
   background: var(--gray);
   border-radius: 50%;
 
   position: absolute;
-  bottom: max(-30px, -10vw);
+  bottom: max(-50px, -10vw);
 
   left: 15px;
+
+  > img {
+    border-radius: 50%;
+    width: 100%;
+  }
 `;
 
 export const ProfileData = styled.div`
-  padding: min(calc(10vw + 7px), 32px) 16px 0;
+  padding: min(calc(15vw + 7px), 55px) 16px 0;
 
   display: flex;
   flex-direction: column;

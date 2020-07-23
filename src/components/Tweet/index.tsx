@@ -27,7 +27,12 @@ const Tweet: React.FC = () => {
       </Retweeted>
 
       <Body>
-        <Avatar />
+        <Avatar>
+          <img
+            src="https://api.adorable.io/avatars/200/abott@adorable.png"
+            alt="Adorable Avatars"
+          />
+        </Avatar>
         <Content>
           <Header>
             <strong>Rocketseat</strong>
