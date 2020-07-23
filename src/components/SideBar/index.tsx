@@ -1,7 +1,9 @@
 import React from 'react';
+import StickyBox from 'react-sticky-box';
 
 import List from '../List';
 import FollowSuggestion from '../FollowSuggestion';
+import News from '../News';
 
 import {
   Container,
@@ -19,30 +21,41 @@ const SideBar: React.FC = () => {
         <SearchIcon />
       </SearchWrapper>
 
-      <Body>
-        <List
-          title="Talvez você curta"
-          elements={[
-            <FollowSuggestion
-              name="Laercio Santos"
-              nickname="@laerciosantos"
-            />,
-            <FollowSuggestion
-              name="Laercio Santos"
-              nickname="@laerciosantos"
-            />,
-            <FollowSuggestion
-              name="Laercio Santos"
-              nickname="@laerciosantos"
-            />,
-          ]}
-        />
+      <StickyBox>
+        <Body>
+          <List
+            title="Talvez você curta"
+            elements={[
+              <FollowSuggestion
+                name="Laercio Santos"
+                nickname="@laerciosantos"
+              />,
+              <FollowSuggestion
+                name="Laercio Santos"
+                nickname="@laerciosantos"
+              />,
+              <FollowSuggestion
+                name="Laercio Santos"
+                nickname="@laerciosantos"
+              />,
+            ]}
+          />
 
-        <List
-          title="Talvez você curta"
-          elements={[<h1>Test</h1>, <h1>Test</h1>, <h1>Test</h1>]}
-        />
-      </Body>
+          <List
+            title="O que está acontecendo"
+            elements={[
+              <News />,
+              <News />,
+              <News />,
+              <News />,
+              <News />,
+              <News />,
+              <News />,
+              <News />,
+            ]}
+          />
+        </Body>
+      </StickyBox>
     </Container>
   );
 };

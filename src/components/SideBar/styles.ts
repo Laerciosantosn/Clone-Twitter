@@ -4,7 +4,6 @@ import { Search } from '../../styles/Icons';
 
 export const Container = styled.div`
   display: none;
-
   @media (min-width: 1000px) {
     display: felx;
     flex-direction: column;
@@ -73,7 +72,9 @@ export const Body = styled.div`
   padding: 57px 24px 200px;
   margin-top: 3px;
 
-  width: 100%;
+  position: sticky;
+  top: 0;
+  width: 399px;
 
   > div + div {
     margin-top: 15px;
