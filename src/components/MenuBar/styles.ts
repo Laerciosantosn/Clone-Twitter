@@ -149,6 +149,7 @@ export const Botside = styled.div`
 export const Avatar = styled.div`
   width: 39px;
   height: 39px;
+  border-radius: 50%;
 
   flex-shrink: 0;
 
